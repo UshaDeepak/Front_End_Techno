@@ -12,12 +12,14 @@
 .logo{
     float: left;
     padding: 15px;
+    display: -webkit-inline-flex;
 }
 .headding{
     background-color: #512222;
     font-size: larger;
     display: block;
         overflow: auto;
+        padding: 30px 0px;
 }
 .logo_img{
     width: 100px;
@@ -60,13 +62,15 @@
 .drop{
     margin:0px;
     padding: 0px;
-    position: absolute;
+    position: relative;
     list-style-type:none ;
     display: none;
 }
 .drop>li {
     list-style-type: none;
-    background-color: #68758d;
+    background-color:black;
+    overflow: visible;
+    z-index: -10
 }
 
 .drop>li>a {
@@ -75,8 +79,10 @@
     font-family: serif;
     text-decoration: none;
     color: white;
-    display: block;
+    display: table-row;
+    position: relative;
     padding: 15px;
+    z-index: 10;
 }
 
 .drop>li>a:hover {
