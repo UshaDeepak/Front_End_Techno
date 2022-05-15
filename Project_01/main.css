@@ -1,3 +1,6 @@
+.page{
+    background-color: #512222;
+}
 
 .container{
     margin: auto;
@@ -9,6 +12,12 @@
 .logo{
     float: left;
     padding: 15px;
+}
+.headding{
+    background-color: #512222;
+    font-size: larger;
+    display: block;
+        overflow: auto;
 }
 .logo_img{
     width: 100px;
