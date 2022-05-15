@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page two</title>
+</head>
+
+<body><a href="../Lesson-01/index.html">Main Page</a>
+    <br />
+    Page Two
+    <hr>
+    <!--Forms--
+        by default GET -->
+    <form method="GET">
+        <input type="text" name="f_name" />
+        <input type="text" name="password" />
+
+        <button id="one" type="submit">Submit</button>
+
+    </form>
+    <hr>
+    <!---comt line 17 to 23 to check POST call , in url you will not seen the params anmes with values -->
+    <form method="POST">
+        <input type="text" name="first_name" />
+        <input type="password" name="pwd" />
+
+        <button id="two" type="submit">Submit</button>
+
+    </form>
+    <!---creating contact form-->
+    <hr />
+    <form method="GET">
+        <table>
+            <tr>
+
+                <td>
+                    <label>Name:</label>
+                    <input type="text" value="" placeholder="Enter your name" name="name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Contact:</label>
+
+                    <input type="tel" value="" placeholder="Enter your contact number" name="contact" />
+
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email:</label>
+
+                    <input type="email" value="" placeholder="Enter your email" name=email />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Address:</label>
+
+                    <input type="text" value="" placeholder="Enter your address" name="address" />
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Messages:</label>
+                    <textarea name="person_message" id="p_msg" cols="30" rows="10"
+                        name="p_msg">Enter the message (500 char min)</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Send</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
